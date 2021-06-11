@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Avaliação Final - Gabriel Orsi</title> 
+	<meta charset="utf-8"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- CÓDIGO CSS -->
+	<style type="text/css"> 
+
+		body{
+			background-color: #474647;	/* cor de fundo */
+			font-family: 'Poppins', sans-serif;
+			}
+
+		#topo{
+			background-color: #fff ;
+			border: 5px solid #00AD9F; /* borda/contorno das caixas */
+			padding: 50px; /*margem INTERNA da caixa top-right-bottom-left */
+			margin-left: 330px;
+			width: 250px;  /* largura da caixa */
+			height: 250px; /* altura da caixa*/
+			font-weight: bold;
+			font-size: 30px;
+			}
+
+		#caixona{
+			background-color: #38BBB0;
+			width: 100%; /* porcentagem deixa responsivo */
+			float:left;
+			}
+			
+
+		article {
+			color: #fff;
+			border: 5px solid #00AD9F;
+			background-color: ;
+			padding: 50px;
+			margin: 20px 20px 20px 80px;  /* margem EXTERNA da caixa top-right-bottom-left*/
+			width: 500px;
+			height: 350px;
+			float: left;
+			position: relative;
+			font-size: 50px
+			}
+
+		nav {
+			color: #fff;
+			border: 5px solid #00AD9F;
+			padding: 50px;
+			margin: 20px 80px 20px 20px;
+			width: 200px;
+			height: 350px;
+			float: left;
+			font-size: 50px
+			}
+
+	</style>
+</head>
+
+<body> 
+
+	<article id="topo"><font color="#000">Caixa - Topo</font></article>
+
+	<div id="caixona">
+	<article>Caixa 1</article>
+	<nav>Menu</nav>
+
+</body>
+</html>
